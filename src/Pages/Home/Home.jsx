@@ -12,7 +12,7 @@ const Home = ({ name, setName, fetchQuestions }) => {
   const navigate = useNavigate();
 
   const handleSubmit = () => {
-    if (!name || !category || !difficulty) {
+    if (!category || !difficulty || !name) {
       setError(true);
       return;
     } else {
