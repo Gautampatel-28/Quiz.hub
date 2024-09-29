@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Quix.hub/static/css/main.e4f1d1e7.css",
+    "main.js": "/Quix.hub/static/js/main.2d035164.js",
+    "index.html": "/Quix.hub/index.html",
+    "main.e4f1d1e7.css.map": "/Quix.hub/static/css/main.e4f1d1e7.css.map",
+    "main.2d035164.js.map": "/Quix.hub/static/js/main.2d035164.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4f1d1e7.css",
+    "static/js/main.2d035164.js"
+  ]
+}
