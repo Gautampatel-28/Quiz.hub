@@ -7,6 +7,7 @@ import Result from "./Pages/Result/Result";
 import Quiz from "./Pages/Quiz/Quiz";
 import { useState } from "react";
 import axios from "axios";
+import React from "react";
 
 function App() {
   const [name, setName] = useState("");
@@ -39,7 +40,7 @@ function App() {
 
           <Routes>
             <Route
-              path="/"
+              path="/home"
               element={
                 <Home
                   name={name}
