@@ -10,8 +10,8 @@ import axios from "axios";
 
 function App() {
   const [name, setName] = useState("");
-  // const [questions, setQuestions] = useState("");
-  // const [score, setScore] = useState(0);
+  const [questions, setQuestions] = useState("");
+  const [score, setScore] = useState(0);
 
   const fetchQuestions = async (category = "", difficulty = "") => {
     try {
@@ -21,7 +21,7 @@ function App() {
         ${difficulty && `&difficulty=${difficulty}`}&type=multiple`
       );
       console.log(data);
-      // setQuestions(data.results);
+      setQuestions(data.results);
     } catch (error) {
       console.error("Error fetching questions:", error);
     }
@@ -47,8 +47,17 @@ function App() {
                 />
               }
             />
-            <Route path="/quiz" element={<Quiz />} />
-            <Route path="/result" element={<Result />} />
+            <Route path="/quiz" element={<Quiz 
+            name={name}
+            questions={questions}
+            score={score}
+            setScore={setScore}
+            setQuestions={setQuestions}
+            />} />
+            <Route path="/result" element={<Result 
+              name={name}
+              score={score}
+            />} />
           </Routes>
         </div>
         <Footer />

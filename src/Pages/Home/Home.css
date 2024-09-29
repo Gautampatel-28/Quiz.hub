@@ -14,9 +14,10 @@
 }
 
 .banner{
-    width: 15%;
+    width: 50%;
     align-self: center;
     padding: 8px;
+    height: auto;
 }
 
 .settings_select{
