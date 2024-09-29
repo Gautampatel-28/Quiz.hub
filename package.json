@@ -2,7 +2,7 @@
   "name": "quiz-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Gautampatel-28.github.io/Quix.hub",
+  "homepage": "https://Gautampatel-28.github.io/Quiz.hub",
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
