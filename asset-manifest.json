@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Quix.hub/static/css/main.e4f1d1e7.css",
-    "main.js": "/Quix.hub/static/js/main.2d035164.js",
-    "index.html": "/Quix.hub/index.html",
-    "main.e4f1d1e7.css.map": "/Quix.hub/static/css/main.e4f1d1e7.css.map",
-    "main.2d035164.js.map": "/Quix.hub/static/js/main.2d035164.js.map"
+    "main.css": "/Quiz.hub/static/css/main.e4f1d1e7.css",
+    "main.js": "/Quiz.hub/static/js/main.2d035164.js",
+    "index.html": "/Quiz.hub/index.html",
+    "main.e4f1d1e7.css.map": "/Quiz.hub/static/css/main.e4f1d1e7.css.map",
+    "main.2d035164.js.map": "/Quiz.hub/static/js/main.2d035164.js.map"
   },
   "entrypoints": [
     "static/css/main.e4f1d1e7.css",
