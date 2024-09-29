@@ -32,7 +32,8 @@ function App() {
       <BrowserRouter>
         <div
           className="app"
-          style={{ backgroundImage: "url('/assets/ques1.png')" }}
+          style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/ques1.png)` }}
+
         >
           <Header />
 
