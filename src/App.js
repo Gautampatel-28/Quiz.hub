@@ -40,7 +40,7 @@ function App() {
 
           <Routes>
             <Route
-              path="/home"
+              path="/Quiz.hub/"
               element={
                 <Home
                   name={name}
