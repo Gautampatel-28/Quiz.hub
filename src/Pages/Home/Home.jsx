@@ -78,7 +78,8 @@ const Home = ({ name, setName, fetchQuestions }) => {
         </div>
       </div>
 
-      <img src="/assets/quiz.svg" className="banner" alt="quiz img" />
+      <img src={`${process.env.PUBLIC_URL}/assets/quiz.svg`} className="banner" alt="quiz img" />
+
     </div>
   );
 };

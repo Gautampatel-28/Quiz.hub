@@ -8,7 +8,7 @@ const Result = ({ name, score }) => {
 
   useEffect(() => {
     if (!name) {
-      navigate("/");
+      navigate("/Quiz.hub/");
     }
   }, [name, navigate]);
 
@@ -22,7 +22,7 @@ const Result = ({ name, score }) => {
           color="secondary"
           size="large"
           style={{ alignSelf: "center", marginTop: 20 }}
-          onClick={() => navigate("/")} 
+          onClick={() => navigate("/Quiz.hub/")} 
         >
           Go To HomePage
         </Button>

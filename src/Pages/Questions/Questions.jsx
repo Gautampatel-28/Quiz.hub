@@ -49,7 +49,7 @@ const Questions = ({
   };
 
   const handleQuit = () => {
-    navigate("/");
+    navigate("/Quiz.hub/");
   };
 
 
